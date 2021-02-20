@@ -10,10 +10,10 @@ html {
 	font-family: "Amatic SC", sans-serif;
 	font-size: 200%;
     color: white;
-    text-shadow: 0 0.1em 20px rgba(0, 0, 0, 1), 0.05em -0.03em 0 rgba(0, 0, 0, 1),
+    /* text-shadow: 0 0.1em 20px rgba(0, 0, 0, 1), 0.05em -0.03em 0 rgba(0, 0, 0, 1),
     0.05em 0.005em 0 rgba(0, 0, 0, 1), 0em 0.08em 0 rgba(0, 0, 0, 1),
     0.05em 0.08em 0 rgba(0, 0, 0, 1), 0px -0.03em 0 rgba(0, 0, 0, 1),
-    -0.03em -0.03em 0 rgba(0, 0, 0, 1), -0.03em 0.08em 0 rgba(0, 0, 0, 1), -0.03em 0 0 rgba(0, 0, 0, 1);
+    -0.03em -0.03em 0 rgba(0, 0, 0, 1), -0.03em 0.08em 0 rgba(0, 0, 0, 1), -0.03em 0 0 rgba(0, 0, 0, 1); */
 
 }
 body {
@@ -152,25 +152,10 @@ img[src="pizzaDough.png"] {
 
 @keyframes sauce{
     0%{
-        transform: scale(0.2);
-    }
-    20%{
-        transform: scale(0.4);
-    }
-	30%{
-        transform: scale(0.5);
-    }
-	40%{
-        transform: scale(0.6);
+        transform: scale(0.1);
     }
     50%{
-        transform: scale(0.7);
-    }
-	60%{
-        transform: scale(0.8);
-    }
-    80%{
-        transform: scale(.9);
+        transform: scale(1);
     }
     100%{
         transform: scale(1);
